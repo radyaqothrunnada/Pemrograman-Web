@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+   <script src="code.js"></script>
+    <link rel="stylesheet" href="tes.css" />
+    <title>Login Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="label">User Login</h1>
+      <form class="login_form">
+        <div class="font">Nama Lengkap</div>
+        <input id="nama" type="text" name="nama" />
+        <div id="nama_error"></div>
+        <div class="font font2">Email</div>
+        <input id="email" type="text" name="email" />
+        <div id="email_error"></div>
+        <div class="font font2">Alamat</div>
+        <input id="alamat" type="text" name="alamat" />
+        <div id="alamat_error"></div>
+        <button type="submit" onclick="validateInputs()">Daftar</button>
+      </form>
+    </div>
+  </body>
+</html>

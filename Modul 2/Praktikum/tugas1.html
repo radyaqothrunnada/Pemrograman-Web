@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Addition Of Two Numbers App</title>
+  </head>
+  <body>
+    <div id="container">
+      <label for="txtNum1">Bilangan pertama:</label><br />
+      <input type="text" id="txtNum1" value="0" /><br />
+
+      <label for="txtNum2">Bilangan Kedua</label><br />
+      <input type="text" id="txtNum2" value="0" /><br /><br />
+
+      <input type="button" value="Add" onclick="add()" />
+      <input type="button" value="Reset" onclick="reset()" />
+    </div>
+    <script type="text/javascript">
+      function reset() {
+        document.getElementById("txtNum1").value = "0";
+        document.getElementById("txtNum2").value = "0";
+      }
+
+      function add() {
+        var num1 = Number(document.getElementById("txtNum1").value);
+        var num2 = Number(document.getElementById("txtNum2").value);
+        var sum = num1 + num2;
+        alert(sum);
+      }
+    </script>
+  </body>
+</html>

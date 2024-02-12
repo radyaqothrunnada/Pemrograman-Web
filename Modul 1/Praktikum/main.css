@@ -1,0 +1,42 @@
+.btn {
+  border-color: black !important;
+  margin-left: 20px;
+}
+
+.navbar {
+  text-align: center !important;
+}
+
+.hero {
+  background-image: url(img/hero.jpg);
+  height: 720px;
+  background-repeat: no- repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.caption {
+  margin-top: 200px;
+  margin-left: 30px;
+}
+
+.footer {
+  margin-top: 30px;
+  line-height: 10px;
+}
+
+.Top-Foot-caption {
+  color: gray;
+}
+
+.foto-footer {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.foto-footer1 {
+  width: 15px;
+  margin-right: 10px;
+}
